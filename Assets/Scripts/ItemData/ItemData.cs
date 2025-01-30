@@ -34,6 +34,11 @@ public class ItemData : ScriptableObject
     /// </summary>
     [SerializeField, Tooltip("이 ItemData를 갖는 Wrapper Class가 갖는 기본 Sprite 배열")]
     private Sprite[] defaultSprites;
+    /// <summary>
+    /// 이 ItemData를 갖는 Wrapper Class가 갖는 기본 Sprite Index
+    /// </summary>
+    [SerializeField, Tooltip("이 ItemData를 갖는 Wrapper Class가 갖는 기본 Sprite Index")]
+    private int defaultSpriteIndex = 0;
 
 
     /// <summary>
@@ -56,4 +61,8 @@ public class ItemData : ScriptableObject
     /// 이 ItemData를 갖는 Wrapper Class가 갖는 기본 Sprite 배열
     /// </summary>
     public Sprite[] DefaultSprites => defaultSprites;
+    /// <summary>
+    /// 이 ItemData를 갖는 Wrapper Class가 갖는 기본 Sprite Index
+    /// </summary>
+    public int DefaultSpriteIndex => defaultSpriteIndex;
 }
