@@ -17,3 +17,4 @@ MonoBehaviour:
   defaultDescription: 
   defaultMaxStackAmount: 0
   defaultSprites: []
+  defaultSpriteIndex: 0
