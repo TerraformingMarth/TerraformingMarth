@@ -12,7 +12,7 @@ public class ItemData : ScriptableObject
     /// 이 ItemData를 갖는 Wrapper Class의 기본 아이템 아이디
     /// </summary>
     [SerializeField, Tooltip("이 ItemData를 갖는 Wrapper Class의 기본 아이템 아이디")]
-    private Material material = Material.AIR;
+    private ItemID id = ItemID.AIR;
     /// <summary>
     /// 이 ItemData를 갖는 Wrapper Class의 기본 이름
     /// </summary>
